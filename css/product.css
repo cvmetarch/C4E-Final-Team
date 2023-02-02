@@ -188,15 +188,9 @@ h6>a {
 }
 
 /*demo iPhone 14 pro max*/
-@media screen and (max-width: 430px),
-screen and (max-height: 932px) {
-    .swiper.myswiper5.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden {
-        width: 80%;
-    }
-}
 
 /* Extra small devices (phones, 600px and down) */
-@media screen and (min-width: 431px) {
+@media screen and (max-width: 600px) {
     .shopping-cart {
         grid-template-columns: repeat(1, 80%);
     }
@@ -213,6 +207,12 @@ screen and (max-height: 932px) {
     .cart-item-img {
         width: auto;
         max-width: 80%;
+    }
+
+    .price-quantity {        
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 

@@ -24,7 +24,7 @@ let generateShop = () => {
             <p>${desc}</p>
             <div class="price-quantity" 
             style="min-width: 40%; max-width:80%;">
-              <h2>${numbWithComma(price)} đ</h2>
+              <h2 style="white-space:nowrap;">${numbWithComma(price)} đ</h2>
               <div class="buttons">
                 <i onclick="decrement(${id})" class="bi bi-dash-lg"></i>
                 <div id=${id} class="quantity">
