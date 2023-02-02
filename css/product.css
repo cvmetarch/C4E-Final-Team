@@ -36,19 +36,8 @@ h6>a {
 
 /**/
 .detail-slider {
-    height: calc(60vh - 120px);
     display: flex;
     flex-direction: column;
-}
-
-.detail-slider-a {
-    width: 30%;
-    height: calc(60vh - 215px);
-}
-
-.detail-slider-b {
-    width: 70%;
-    height: 100%;
 }
 
 .shop {
@@ -201,14 +190,8 @@ h6>a {
 /*demo iPhone 14 pro max*/
 @media screen and (max-width: 430px),
 screen and (max-height: 932px) {
-    .swiper.mySwiper4.swiper-initialized.swiper-vertical.swiper-backface-hidden {
-        max-height: 100%;
-        max-width: 90%;
-    }
-
     .swiper.myswiper5.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden {
-        max-width: 100%;
-        max-height: 100%;
+        width: 80%;
     }
 }
 
@@ -231,16 +214,6 @@ screen and (max-height: 932px) {
         width: auto;
         max-width: 80%;
     }
-
-    .swiper.mySwiper4.swiper-initialized.swiper-vertical.swiper-backface-hidden {
-        max-height: 100%;
-        max-width: 40%;
-    }
-
-    .swiper.myswiper5.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden {
-        max-width: 55%;
-        max-height: 100%;
-    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -259,16 +232,6 @@ screen and (max-height: 932px) {
     .details-cart {
         flex-direction: column;
     }
-
-    .swiper.mySwiper4.swiper-initialized.swiper-vertical.swiper-backface-hidden {
-        max-height: 100%;
-        max-width: 35%;
-    }
-
-    .swiper.myswiper5.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden {
-        max-width: 45%;
-        max-height: 100%;
-    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -286,84 +249,22 @@ screen and (max-height: 932px) {
     .title-price-x {
         padding: 10px;
     }
-
-    .swiper.mySwiper4.swiper-initialized.swiper-vertical.swiper-backface-hidden {
-        max-height: 100%;
-        max-width: 45%;
-    }
-
-    .swiper.myswiper5.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden {
-        max-width: 60%;
-        max-height: 100%;
-    }
-
-    .detail-slider {
-        height: calc(80vh - 120px);
-    }
-
-    .detail-slider-a {
-        width: 30%;
-        height: calc(80vh - 215px);
-    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .swiper.mySwiper4.swiper-initialized.swiper-vertical.swiper-backface-hidden {
-        max-height: 100%;
-        max-width: 50%;
-    }
 
-    .swiper.myswiper5.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden {
-        max-width: 65%;
-        max-height: 100%;
-    }
-
-    .detail-slider {
-        height: calc(100vh - 120px);
-    }
-
-    .detail-slider-a {
-        width: 30%;
-        height: calc(100vh - 215px);
-    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .swiper.mySwiper4.swiper-initialized.swiper-vertical.swiper-backface-hidden {
-        max-height: 100%;
-        max-width: 40%;
-    }
 
-    .swiper.myswiper5.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden {
-        max-width: 55%;
-        max-height: 100%;
-    }
 }
 
 @media only screen and (min-width: 1501px) {
-    .swiper.mySwiper4.swiper-initialized.swiper-vertical.swiper-backface-hidden {
 
-        max-height: 100%;
-        max-width: 35%;
-    }
-
-    .swiper.myswiper5.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden {
-        max-width: 50%;
-        max-height: 100%;
-
-    }
 }
 
 @media only screen and (min-width: 1801px) {
-    .swiper.mySwiper4.swiper-initialized.swiper-vertical.swiper-backface-hidden {
-        max-height: 100%;
-        max-width: 35%;
-    }
 
-    .swiper.myswiper5.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden {
-        max-width: 45%;
-        max-height: 100%;
-    }
 }

@@ -74,16 +74,11 @@ let swiper3 = new Swiper(".mySwiper3", {
 
 
 var swiper4 = new Swiper(".mySwiper4", {
-    direction: "vertical",
-    spaceBetween: 10,
-    slidesPerView: 3,
-    freeMode: true,
-    watchSlidesProgress: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+  spaceBetween: 10,
+  slidesPerView: 3,
+  freeMode: true,
+  watchSlidesProgress: true,
+});
 
 var swiper5 = new Swiper(".myswiper5", {
   spaceBetween: 10,
