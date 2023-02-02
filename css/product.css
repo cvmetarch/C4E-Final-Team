@@ -203,7 +203,7 @@ h6>a {
 screen and (max-height: 932px) {
     .swiper.mySwiper4.swiper-initialized.swiper-vertical.swiper-backface-hidden {
         max-height: 100%;
-        max-width: 100%;
+        max-width: 90%;
     }
 
     .swiper.myswiper5.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden {
@@ -213,7 +213,7 @@ screen and (max-height: 932px) {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 431px) {
     .shopping-cart {
         grid-template-columns: repeat(1, 80%);
     }
