@@ -1,5 +1,5 @@
 # C4E-Final-Team
-Demo for online shopping store, Vien Chi Bao Accessory
+Demo for online shopping store, Cyber Silver Accessory
 
 Root directory: 3+ html files (Homepage, Product, Shopping cart)
 ./images/: all images source
