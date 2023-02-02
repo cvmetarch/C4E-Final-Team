@@ -20,8 +20,17 @@ let shopItemsData = [
     id: "vangnu",
     name: "NHẪN VÀNG NỮ CHẤT LIỆU VÀNG 10K",
     price: 490000,
-    desc: "Dòng sản phẩm: Nhẫn",
-    img: "images/vangnu01.jpg",
+    desc: `
+    Nhẫn Nữ chất liệu Vàng 10K<br>
+    Mã Sản Phẩm: V000002<br>
+    – Thương hiệu: Viễn Chí Bảo<br>
+    – Dòng sản phẩm: Nhẫn<br>
+    – Bộ sưu tập: Vàng phong thủy <br>
+    – Dịp tặng quà: Ngày kỷ niệm, các dịp lễ tết, sinh nhật, tình yêu, ...<br>
+    – Chất Liệu: Vàng 10K<br>
+    – Kích thước: 20,5 x 16,5 x 2,4mm<br>
+    – Trọng lượng: 12,05g`,
+    img: "images/chuykc02.jpg",
   }
 */
 ];

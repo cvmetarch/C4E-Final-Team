@@ -10,18 +10,18 @@ let generateShop = () => {
       return `
     <div></div>
     <div id=product-id-${id} class="item">
-        <div>         
-          <h5 style="padding-bottom: 10px">THÔNG TIN SẢN PHẨM</h5>
+        <div style="min-width:20%">         
+          <h4 style="padding-bottom:10px; text-align: center;">THÔNG TIN SẢN PHẨM</h4>
         </div>
-        <div style="display:flex; flex-direction: row;">
-          <div style="min-width:20%;">
+        <div style="display:flex; flex-direction: row;justify-content: space-between;width: 100%; ">
+          <div style="min-width:20%; max-width: 30%;">
             <img style="width:100%" src=${img} alt="">
           </div>
           <div class="details">
             <!--
               <h3>${name}</h3>
             -->
-            <p style="font-size:small">${desc}</p>
+            <p>${desc}</p>
             <div class="price-quantity" 
             style="min-width: 40%; max-width:80%;">
               <h2>${numbWithComma(price)} đ</h2>

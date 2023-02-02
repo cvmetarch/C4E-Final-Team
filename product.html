@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Viễn Chí Bảo - Sản phẩm</title>
+        <title>Cyber Silver - Sản phẩm</title>
         <link rel="stylesheet" href="./css/home.css">
         <link rel="stylesheet" href="./css/product.css">
 
@@ -17,33 +17,37 @@
         <div class="app-layout">
             <div class="head-bar">
                 <header class="upper-bar">
-                    <div style="height: 85%;">
+                    <div class="logo-img">
                         <a href="./home.html">
                             <img src="./images/logoweb-1024x269.png"
-                                style="height:100%; object-fit: contain;">
+                                style="align-self: center; display: block; width: 100%; height: 100%; object-fit: cover;">
                         </a>
                     </div>
-                    <div class="sb">
-                        <input type="text" placeholder="Tìm kiếm..." />
-                        <a href="./home.html"><i class="bi bi-search"></i></a>
-                    </div>
-                    <div style="display: flex; flex-wrap: wrap; max-width: 20%; column-gap: 25px; justify-content: center;">
-                        <h5 style="flex-shrink: 0;">VỀ CHÚNG TÔI</h5>
-                        <h5 style="flex-shrink: 0;">094.27.66662</h5>
-                    </div>
-                    <a href="./cart.html">
-                        <div class="cart">
-                            <i class="bi bi-cart2"></i>
-                            <div id="cartAmount" class="cartAmount">0</div>
+                    <div class="search-box">
+                        <div class="sb">
+                            <input type="text" placeholder="Tìm kiếm..." />
+                            <a href="./home.html"><i class="bi bi-search"></i></a>
                         </div>
-                    </a>
+                        <div style="display: flex; flex-wrap: wrap; width: 35%; 
+                                    align-items: center; justify-content: space-evenly;">
+                            <h5 class="top-men" style="flex-shrink: 0;">VỀ CHÚNG TÔI</h5>
+                            <h5 class="top-men" style="flex-shrink: 0;">098.63.63131</h5>
+                        </div>
+                        <a href="./cart.html">
+                            <div class="cart">
+                                <i class="bi bi-cart2"></i>
+                                <div id="cartAmount" class="cartAmount">0</div>
+                            </div>
+                        </a>
+                    </div>
+            
                 </header>
                 <nav class="lower-bar">
                     <div class="dropdown">
                         <button class="dropbtn">
                             <a href="./home.html">
                                 <div style="display: flex; flex-direction: row; align-items: center;">
-                                    <h5>CẨM NANG KIẾN THỨC</h5>
+                                    <h5 class="top-men">CẨM NANG KIẾN THỨC</h5>
                                     <img width="30px" src="./images/shui-icon.gif">
                                 </div>
                             </a>
@@ -57,24 +61,24 @@
                     </div>
                     <a href="./product.html">
                         <div>
-                            <h5>SALE OFF</h5>
+                            <h5 class="top-men">SALE OFF</h5>
                         </div>
                     </a>
                     <a href="./product.html">
                         <div>
-                            <h5>BỘ SƯU TẬP</h5>
+                            <h5 class="top-men">BỘ SƯU TẬP</h5>
                         </div>
                     </a>
                     <a href="./product.html">
                         <div>
-                            <h5>SẢN PHẨM MỚI</h5>
+                            <h5 class="top-men">SẢN PHẨM MỚI</h5>
                         </div>
                     </a>
                     <div class="dropdown">
                         <button class="dropbtn">
                             <a href="./product.html">
                                 <div>
-                                    <h5>TRANG SỨC</h5>
+                                    <h5 class="top-men">TRANG SỨC</h5>
                                 </div>
                             </a>
                         </button>
@@ -89,7 +93,7 @@
                         <button class="dropbtn">
                             <a href="./product.html">
                                 <div>
-                                    <h5>QUÀ TẶNG</h5>
+                                    <h5 class="top-men">QUÀ TẶNG</h5>
                                 </div>
                             </a>
                         </button>
@@ -101,81 +105,277 @@
                     </div>
                 </nav>
             </div>
+            
+            <div class="head-spacing"></div>
 
-            <div style="height:120px;"></div>
-
-            <section>
-                <h6>
-                    <a href="./home.html">TRANG CHỦ</a> /
-                    <a href="./product.html">VÀNG PHONG THỦY</a>
-                </h6>
-                <h4 style="margin-left: 10%">NHẪN NAM CHÙY KIM CANG VÀNG 18K</h4>
-                <div class="bottom-container">
-                    <div class="swiper mySwiper2" style="width: 80%; border: 3px solid red; margin: 15px 15px;">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <a href="./product.html" style="width:100%; display:flex; justify-content: center;">
-                                    <img class="img-swipe0" src="./images/chuykc01.jpg">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./product.html" style="width:100%; display:flex; justify-content: center;">
-                                    <img class="img-swipe0" src="./images/chuykc02.jpg">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./product.html" style="width:100%; display:flex; justify-content: center;">
-                                    <img class="img-swipe0" src="./images/chuykc03.jpg">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./product.html" style="width:100%; display:flex; justify-content: center;">
-                                    <img class="img-swipe0" src="./images/chuykc04.jpg">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./product.html" style="width:100%; display:flex; justify-content: center;">
-                                    <img class="img-swipe0" src="./images/chuykc05.jpg">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./product.html" style="width:100%; display:flex; justify-content: center;">
-                                    <img class="img-swipe0" src="./images/chuykc06.jpg">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./product.html" style="width:100%; display:flex; justify-content: center;">
-                                    <img class="img-swipe0" src="./images/chuykc07.jpg">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./product.html" style="width:100%; display:flex; justify-content: center;">
-                                    <img class="img-swipe0" src="./images/chuykc08.jpg">
-                                </a>
+            <!--DETAIL SWIPER-->
+            <section class="detail-slider">
+                <div style="padding-bottom: 15px;">
+                    <h5>
+                        <a href="./home.html">TRANG CHỦ</a> /
+                        <a href="./product.html">VÀNG PHONG THỦY</a>
+                    </h5>
+                    <h4 style="margin-left: 10%">NHẪN NAM CHÙY KIM CANG VÀNG 18K</h4>
+                </div>
+                <div class="bottom-container2" style="width:80%; border: 0;">                    
+                    <div class="detail-slider-a">
+                        <div style="height: 100%; display:flex; align-items: center;">
+                            <div class="swiper mySwiper4 swiper-initialized swiper-vertical swiper-backface-hidden">
+                                <div class="swiper-wrapper" id="swiper-wrapper-ebcfae193d9a10f21" aria-live="polite">
+                                    <div class="swiper-slide" role="group" aria-label="1 / 8" style="height: 120px; max-height:100%; margin-right: 10px;">
+                                        <a style="cursor: pointer; height: auto;">
+                                            <img width="" height="100%" src="./images/chuykc01.jpg" alt="" loading="lazy" sizes="(max-height: 510px) 100vh, 510px">                                            
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-label="2 / 8" style="height: 120px; max-height:100%; margin-right: 10px;">
+                                        <a style="cursor: pointer; height: auto;">
+                                            <img width="" height="100%" src="./images/chuykc02.jpg" alt="" loading="lazy" sizes="(max-height: 510px) 100vh, 510px">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-label="3 / 8" style="height: 120px; max-height:100%; margin-right: 10px;">
+                                        <a style="cursor: pointer; height: auto;">
+                                            <img width="" height="100%" src="./images/chuykc03.jpg" alt="" loading="lazy" sizes="(max-height: 510px) 100vh, 510px">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-prev" role="group" aria-label="4 / 8" style="height: 120px; max-height:100%; margin-right: 10px;">
+                                        <a style="cursor: pointer; height: auto;">
+                                            <img width="" height="100%" src="./images/chuykc04.jpg" alt="" loading="lazy" sizes="(max-height: 510px) 100vh, 510px">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-visible swiper-slide-active swiper-slide-thumb-active" role="group" aria-label="5 / 8" style="height: 120px; max-height:100%; margin-right: 10px;">
+                                        <a style="cursor: pointer; height: auto;">
+                                            <img width="" height="100%" src="./images/chuykc05.jpg" alt="" loading="lazy" sizes="(max-height: 510px) 100vh, 510px">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-visible swiper-slide-next" role="group" aria-label="6 / 8" style="height: 120px; max-height:100%; margin-right: 10px;">
+                                        <a style="cursor: pointer; height: auto;">
+                                            <img width="" height="100%" src="./images/chuykc06.jpg" alt="" loading="lazy" sizes="(max-height: 510px) 100vh, 510px">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-visible" role="group" aria-label="7 / 8" style="height: 120px; max-height:100%; margin-right: 10px;">
+                                        <a style="cursor: pointer; height: auto;">
+                                            <img width="" height="100%" src="./images/chuykc07.jpg" alt="" loading="lazy" sizes="(max-height: 510px) 100vh, 510px">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-visible" role="group" aria-label="8 / 8" style="height: 120px; max-height:100%; margin-right: 10px;">
+                                        <a style="cursor: pointer; height: auto;">
+                                            <img width="" height="100%" src="./images/chuykc08.jpg" alt="" loading="lazy" sizes="(max-height: 510px) 100vh, 510px">
+                                        </a>
+                                    </div>
+                                </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                             </div>
                         </div>
                     </div>
+                    
+                    <div class="detail-slider-b">
+                        <div style="height: 100%;">
+                            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff;"
+                            class="swiper myswiper5 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                                <div class="swiper-wrapper" id="swiper-wrapper-515ac291f794983f" aria-live="polite" style="transform: translate3d(-4948px, 0px, 0px); transition-duration: 0ms;">
+                                    <div class="swiper-slide" role="group" aria-label="1 / 8" style="width: 1227px; margin-right: 10px;">
+                                        <a style="cursor: pointer; width:100%; display:flex; justify-content: center;">
+                                            <img class="img-swipe0" src="./images/chuykc01.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-label="2 / 8" style="width: 1227px; margin-right: 10px;">
+                                        <a style="cursor: pointer; width:100%; display:flex; justify-content: center;">
+                                            <img class="img-swipe0" src="./images/chuykc02.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-label="3 / 8" style="width: 1227px; margin-right: 10px;">
+                                        <a style="cursor: pointer; width:100%; display:flex; justify-content: center;">
+                                            <img class="img-swipe0" src="./images/chuykc03.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-prev" role="group" aria-label="4 / 8" style="width: 1227px; margin-right: 10px;">
+                                        <a style="cursor: pointer; width:100%; display:flex; justify-content: center;">
+                                            <img class="img-swipe0" src="./images/chuykc04.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-active" role="group" aria-label="5 / 8" style="width: 1227px; margin-right: 10px;">
+                                        <a style="cursor: pointer; width:100%; display:flex; justify-content: center;">
+                                            <img class="img-swipe0" src="./images/chuykc05.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-next" role="group" aria-label="6 / 8" style="width: 1227px; margin-right: 10px;">
+                                        <a style="cursor: pointer; width:100%; display:flex; justify-content: center;">
+                                            <img class="img-swipe0" src="./images/chuykc06.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-label="7 / 8" style="width: 1227px; margin-right: 10px;">
+                                        <a style="cursor: pointer; width:100%; display:flex; justify-content: center;">
+                                            <img class="img-swipe0" src="./images/chuykc07.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-label="8 / 8" style="width: 1227px; margin-right: 10px;">
+                                        <a style="cursor: pointer; width:100%; display:flex; justify-content: center;">
+                                            <img class="img-swipe0" src="./images/chuykc08.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-515ac291f794983f" aria-disabled="false"></div>
+                                <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-515ac291f794983f" aria-disabled="false"></div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>                
+            </section>
+            <div>
+                
+            </div>
+            <section style="flex-direction: row; display: flex; justify-content: center;"">
+                <div class="prefooter" style="border: none; padding:0;">           
+                    <div class="bottom-container2" style="justify-content: flex-start;">
+                        <figure>
+                            <img width="40px" height="40px" 
+                            src="./images/diamond.png" alt="" loading="lazy">
+                        </figure>
+                        <div>
+                            <p>Bảo hành đánh sáng, tư vấn sử dụng trọn đời</p>
+                        </div>
+                    </div>		                
+                    <div class="bottom-container2" style="justify-content: flex-start;">
+                        <figure>
+                            <img width="40px" height="40px" 
+                            src="./images/food-delivery.png" 
+                            alt="" loading="lazy">
+                        </figure>
+                        <div>
+                            <p>Giao hàng tận nơi toàn quốc, nhận hàng rồi mới thanh toán</p>
+                        </div>
+                    </div>	                   
+                    <div class="bottom-container2" style="justify-content: flex-start;">
+                        <figure>
+                            <img width="40px" height="40px" 
+                            src="./images/money.png" 
+                            alt="" loading="lazy">
+                        </figure>
+                        <div>
+                            <p>Giao hàng tận nơi toàn quốc, nhận hàng rồi mới thanh toán</p>
+                        </div>
+                    </div>	                   
                 </div>
             </section>
 
             <div class="shop" id="shop">
             </div>
+            
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <section style="display: flex; flex-direction:column; 
+                overflow: auto;
+                padding: 10px 0 10px 0; margin: 15px 0 15px 0; 
+                width: 80%; height: 100vh;
+                background-color: lightcyan; border-radius: 20px;">                       
+                    <h3 style="margin:auto; padding:10px; color: brown;">
+                        I. NGUỒN GỐC VÀ Ý NGHĨA CỦA CHÙY KIM CANG
+                    </h3>
+                    <p>
+                        Trong Phật Giáo Mật Tông, các Pháp Khí là những công cụ mà chúng tăng sử dụng trong tư pháp và tu hành hàng ngày. Còn theo nghĩa hẹp, đó là chỉ những dụng cụ cúng dường chư phật, dùng trong các đạo tràng trang nghiêm, tu chứng phật pháp… Nổi bật trong số đó, Pháp Khí đầu tiên phải kể đến là Chùy Kim Cang. <br>
+                        Chùy Kim Cang là một trong những biểu tượng của Phật giáo và Ấn Độ giáo. Đặc biệt nó chính là biểu tượng của dòng Kim Cương Thừa – Mật Tông. Chư Tôn Kim Cang bội trong hải nội Mandala, phần lớn trong tay đều cầm Chùy Kim Cang. Chùy Kim Cang có nguồn gốc là Đại Vũ Trụ vì nó gồm cả 3 phần: vật chất, trí tuệ và tinh thần. 
+                    </p>
+                    <h4 style="padding:10px;">Nguồn gốc của Chùy Kim Cang</h4>
+                    <p>
+                        Chùy Kim Cang trong Phật giáo có thể đươc tạo dưới hình thức từ 1 đến 9 chẽ. Loại phổ thông thường gặp là 5 chẽ. Chùy Kim Cang 5 chẽ ở phía trên tượng trưng cho Ngũ trí Phật: Đức Phật Đại Nhật, Đức Phật Bảo Sinh, Đức Phật Bất Không Thành Tựu, Đức Phật Thích Ca, Đức Phật A Di Đà. Năm chẽ ở dưới tượng trưng năm vị Phật Mẫu: Chuẩn Đề Mẫu, Bảo Độ Mẫu, Kim Cương Luyện Mẫu, Tha Vô Năng Thắng Mẫu. Phần đài sen phía dưới bọc lấy chẽ có 8 cánh, tượng trưng cho Bát Chính Đạo.
+                    </p>
+                    <h4 style="padding:10px;">Ý nghĩa của Chùy Kim Cang</h4>
+                    <p>Chùy Kim Cang biểu trưng cho lòng từ bi của chữ Phật và trí tuệ. Sự kết hợp giữa biểu tượng Chùy Kim Cang và trang sức sẽ mang lại cho người sở hữu thoát khỏi khổ đau, mê lầm, mang lại may mắn, hạnh phúc và bình an trong cuộc sống.</p>
+                    <br>
+                    <h3 style="margin:auto; padding:10px; color: brown;">
+                        II. ĐẶC ĐIỂM NỔI BẬT SẢN PHẨM
+                    </h3>                    
+                    <div style="color:darkred; display: flex; justify-content: flex-start; padding:0 30px 0 30px; align-items: center;">
+                        <img style="border-radius: 50%; height: 150px; width: 150px" src="./images/chuykc03.jpg">
+                        <div>
+                            <h4 style="padding:10px;">Thiết kế dựa theo hình ảnh Chùy Kim Cang</h4>
+                            <p style="padding:10px;">Nhẫn được thiết kế với họa tiết Chùy Kim Cang một trong những biểu tượng của Phật giáo có ý nghĩa phong thủy</p>
+                        </div>
+                    </div>
+                    <div style="color:darkred; display: flex; justify-content: flex-end; padding:0 30px 0 30px; align-items: center;">
+                        <div style="text-align: right;">
+                            <h4 style="padding:10px;">Chế tác tinh tế, tỉ mỉ</h4>
+                            <p style="padding:10px;">Chi tiết được chạm khắc tỉ mỉ và tinh tế, mịn màng</p>
+                        </div>
+                        <img style="border-radius: 50%; height: 150px; width: 150px" src="./images/chuykc04.jpg">
+                    </div>
+                    <div style="color:darkred; display: flex; justify-content: flex-start; padding:0 30px 0 30px; align-items: center;">
+                        <img style="border-radius: 50%; height: 150px; width: 150px" src="./images/chuykc06.jpg">
+                        <div>
+                            <h4 style="padding:10px;">Mặt trong khắc bài kệ của Lục Tổ Huệ Năng</h4>
+                            <p style="padding:10px;">Trong nhẫn có khắc bài kệ ngộ thiền của Lục Tổ Huệ Năng: "Bồ - đề bản vô thụ - Minh cảnh diệt phi đài - Bản lai vô nhất vật - Vật sử nhạ trần ai"</p>
+                        </div>
+                    </div>
+                    <div style="color:darkred; display: flex; justify-content: flex-end; padding:0 30px 0 30px; align-items: center;">
+                        <div style="text-align: right;">
+                            <h4 style="padding:10px;">Chất liệu vàng 18k cao cấp</h4>
+                            <p style="padding:10px;">Nhẫn được chế tác từ chất liệu vàng 18k có độ tinh khiết cao</p>
+                        </div>
+                        <img style="border-radius: 50%; height: 150px; width: 150px" src="./images/chuykc08.jpg">
+                    </div>
+                    <br>
+                    <h3 style="margin:auto; padding:10px; color: brown;">
+                        III. THÔNG TIN SẢN PHẨM NHẪN CHÙY KIM CANG
+                    </h3>  
+                    <div style="text-align: center; color: brown">
+                        <h4 style="padding:10px;">Nhẫn nam vàng 18k Chùy Kim Cang xoay 360 độ</h4>
+                        <p>
+                            Nhẫn nam vàng 18k là một trong số ít những mẫu trang sức phong thủy được Cyber Silver nhắc tới. <br>
+                            Chiếc nhẫn nam Chùy Kim Cang vàng 18k này một trong số những mẫu hiếm đó. Chúng ta cùng tìm hiểu về chiếc nhẫn này nhé. <br>
+                        </p>
+                        <div style="padding: 5px">
+                            <img style="height: 80%; width: 80%;" src="./images/chuykc04.jpg">
+                            <p>
+                                Nhẫn nam vàng 18k được chế tác với phần vòng nhẫn được chạm khắc biểu tượng Chùy Kim Cang- một trong những pháp bảo của Mật Tông trong đạo Phật.
+                            </p>
+                        </div>
+                        <div style="padding: 5px">
+                            <img style="height: 80%; width: 80%;" src="./images/chuykc02.jpg">
+                            <p>
+                                Các hình ảnh Chùy Kim Cang được nối liền với nhau bao xung quanh chiếc nhẫn trên nền vàng mang đến một chiếc nhẫn phong thủy nổi bật.
+                            </p>
+                        </div>
+                        <div style="padding: 5px">
+                            <img style="height: 80%; width: 80%;" src="./images/chuykc06.jpg">
+                            <p>
+                            Bên trong nhẫn có chạm khắc bài kệ Ngộ Thiền của Lục Tổ Đệ Năng mang những hàm ý sâu sắc về nhân sinh quan con người. 
+                        </p>
+                        </div>
+                        <div style="padding: 5px">
+                            <img style="height: 80%; width: 80%;" src="./images/chuykc03.jpg">
+                            <p>
+                                Điểm nổi bật của chiếc nhẫn này còn là khả năng có thể xoay 360 độ mặt nhẫn, với thiết kế đặc biệt ấn tượng mang đến cho chiếc nhẫn nhiều sự trải nghiệm.
+                            </p>
+                        </div>
+                        <div style="padding: 5px">
+                            <img style="height: 80%; width: 80%;" src="./images/chuykc08.jpg">
+                            <p>
+                                Chế tác nhẫn từ chất liệu vàng 18k cao cấp, chất vàng tinh khiết, sáng bóng, khi đeo trên tay vô cùng sang trọng, đăng cấp. 
+                            </p>
+                        </div>
+                        <div style="padding: 5px">
+                            <img style="height: 80%; width: 80%;" src="./images/chuykc01.jpg">
+                            <p>
+                                Nhẫn nam vàng 18k là món quà ý nghĩa mà bạn có thể dành tặng cho bạn bè, người thân trong những dịp quan trong như một sự quan tâm tới họ. 
+                            </p>
+                        </div>
+                    </div>
+                    <p>Xem thêm <a style="color:blue" href="./home.html">Trang sức vàng phong thủy</a></p>
+                </section>
+            </div>
 
-            <section style="display: flex; flex-direction:column;margin: 15px 0 15px 0;">
-                <h3>SẢN PHẨM MỚI</h3>
+            <!--NEW PRODUCT SWIPER-->
+            <section style="display: flex; flex-direction:column; margin-top: 10px;"><h3>SẢN PHẨM MỚI</h3>
                 <section class="mid-container-2">
-                    <!--Swiper -->
-                    <div class="swiper mySwiper3 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden"
-                        style="width: 80%;">
-                        <div class="swiper-wrapper" id="swiper-wrapper-c93099a3e010a7262" aria-live="polite"
-                            style="transition-duration: 0ms; transform: translate3d(-1353.33px, 0px, 0px);">
+                    <!--Swiper -->  
+                    <div class="swiper mySwiper3 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden" style="width: 80%;">
+                        <div class="swiper-wrapper" id="swiper-wrapper-c93099a3e010a7262" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-1353.33px, 0px, 0px);">
                             <div class="swiper-slide" aria-label="1/7" style="align-items: start;">
                                 <section class="mid-container-2">
                                     <div style="display:flex; justify-content: center;">
                                         <div style="width:80%;">
                                             <a href="./product.html">
-                                                <img width="100%" height=""
-                                                    src="./images/5.Nhẫn-Tỳ-Hưu-Bàn-Tính-N00576-510x510.jpg" alt=""
+                                                <img width="100%" height="" src="./images/nhan-ty-huu-ban-tinh.jpg" alt=""
                                                     loading="lazy" sizes="(max-width: 510px) 100vw, 510px">
                                             </a>
                                         </div>
@@ -191,15 +391,15 @@
                                     <div style="display:flex; justify-content: center;">
                                         <div style="width:80%;">
                                             <a href="./product.html">
-                                                <img width="100%" height="" src="./images/CHUYKC02.jpg" alt=""
-                                                    loading="lazy" sizes="(max-width: 510px) 100vw, 510px">
+                                                <img width="100%" height="" src="./images/CHUYKC02.jpg" alt="" loading="lazy"
+                                                    sizes="(max-width: 510px) 100vw, 510px">
                                             </a>
                                         </div>
                                     </div>
                                     <div>
                                         <h4><a href="./product.html">NHẪN NAM CHÙY KIM CANG VÀNG 18K</a></h4>
                                         <h4 style="color:red">45.660.000₫</h4>
-                                    </div>
+                                    </div>                        
                                 </section>
                             </div>
                             <div class="swiper-slide swiper-slide-prev" aria-label="3/7" style="align-items: start;">
@@ -208,8 +408,8 @@
                                         <div style="width:80%;">
                                             <a href="./product.html">
                                                 <img width="100%" height=""
-                                                    src="./images/10.Nhẫn-bạc-nữ-dính-dá-cao-viền-dá-trắngN400465-510x510.jpg"
-                                                    alt="" loading="lazy" sizes="(max-width: 510px) 100vw, 510px">
+                                                    src="./images/nhan-bac-nu-da-cao.jpg" alt=""
+                                                    loading="lazy" sizes="(max-width: 510px) 100vw, 510px">
                                             </a>
                                         </div>
                                     </div>
@@ -226,9 +426,8 @@
                                     <div style="display:flex; justify-content: center;">
                                         <div style="width:80%;">
                                             <a href="./product.html">
-                                                <img width="100%" height=""
-                                                    src="./images/6.Nhẫn-bạc-nữ-hình-trăng-saoN400861-510x510.jpg"
-                                                    alt="" loading="lazy" sizes="(max-width: 510px) 100vw, 510px">
+                                                <img width="100%" height="" src="./images/nhan-bac-nu-trang-sao.jpg" alt=""
+                                                    loading="lazy" sizes="(max-width: 510px) 100vw, 510px">
                                             </a>
                                         </div>
                                     </div>
@@ -240,21 +439,20 @@
                                     </div>
                                 </section>
                             </div>
-                            <div class="swiper-slide swiper-slide-next" aria-label="5/7" style="align-items: start;">
+                            <div class="swiper-slide swiper-slide-next" aria-label="5/7" style="align-items: start;">                        
                                 <section class="mid-container-2">
                                     <div style="display:flex; justify-content: center;">
                                         <div style="width:80%;">
                                             <a href="./product.html">
-                                                <img width="100%" height=""
-                                                    src="./images/11.Nhẫn-liên-hoa-lục-tự-n000233-510x510.jpg" alt=""
-                                                    loading="lazy" sizes="(max-width: 510px) 100vw, 510px">
+                                                <img width="100%" height="" src="./images/nhan-lien-hoa.jpg" alt="" loading="lazy"
+                                                    sizes="(max-width: 510px) 100vw, 510px">
                                             </a>
                                         </div>
                                     </div>
                                     <div>
                                         <h4><a href="./product.html">NHẪN LIÊN HOA LỤC TỰ</a></h4>
                                         <h4 style="color:red">550.000₫</h4>
-                                    </div>
+                                    </div>                        
                                 </section>
                             </div>
                             <div class="swiper-slide" aria-label="6/7" style="align-items: start;">
@@ -263,8 +461,8 @@
                                         <div style="width:80%;">
                                             <a href="./product.html">
                                                 <img width="100%" height=""
-                                                    src="./images/5.Nhẫn-bạc-nữ-ghép-hình-Vương-miện.N400206-510x510.jpg"
-                                                    alt="" loading="lazy" sizes="(max-width: 510px) 100vw, 510px">
+                                                    src="./images/nhan-bac-nu-vuong-mien.jpg" alt=""
+                                                    loading="lazy" sizes="(max-width: 510px) 100vw, 510px">
                                             </a>
                                         </div>
                                     </div>
@@ -282,8 +480,8 @@
                                         <div style="width:80%;">
                                             <a href="./product.html">
                                                 <img width="100%" height=""
-                                                    src="./images/5.Nhẫn-bạc-nữ-ghép-hình-Vương-miện.N400206-510x510.jpg"
-                                                    alt="" loading="lazy" sizes="(max-width: 510px) 100vw, 510px">
+                                                    src="./images/nhan-vang-10k.jpg" alt=""
+                                                    loading="lazy" sizes="(max-width: 510px) 100vw, 510px">
                                             </a>
                                         </div>
                                     </div>
@@ -296,49 +494,134 @@
                                 </section>
                             </div>
                         </div>
-                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-6af9487745610689e" aria-disabled="false" style="top:42%; right:0;"></div>
+                        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-6af9487745610689e" aria-disabled="false" style="top:42%; left:0;"></div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>            
                     </div>
-
+                
                     <a href="./product.html">
                         <div style="
-                                                font-size: small; font-weight: bold; 
-                                                padding:10px; margin:10px; border: 1px solid darkblue; border-radius:10px; 
-                                                background: white;">
+                            font-size: small; font-weight: bold; 
+                            padding:10px; margin:10px 10px 10px 10px; border: 1px solid darkblue; border-radius:10px; 
+                            background: white;">
                             Xem thêm
-                        </div>
+                        </div>    
                     </a>
                 </section>
             </section>
-
-            <section style="display: flex; flex-direction:column;margin: 15px 0 15px 0;">
-                <h3>SẢN PHẨM BÁN CHẠY</h3>
-                <section class="mid-container-2">
-                    <div style="display:flex; justify-content: center;">
-                        <div style="width:65%;">
-                            <a href="./product.html">
-                                <img width="100%" height="" src="./images/nhan-bac-nu-N400665-3-510x510.jpg" alt=""
-                                    loading="lazy" sizes="(max-width: 510px) 100vw, 510px">
-                            </a>
+            <!--BEST SELLER SWIPER-->
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <section style="display: flex; flex-direction:column; padding-bottom: 10px; margin: 15px 0 15px 0; width: 85%; background-color: lightcyan; border-radius: 20px;">
+                    <h3 class="best-seller">SẢN PHẨM BÁN CHẠY</h3>            
+                    <section class="mid-container-2">
+                    <!--Swiper -->  
+                        <div class="swiper mySwiper3 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden" style="width: 80%;">
+                            <div class="swiper-wrapper" id="swiper-wrapper-c93099a3e010a7262" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-1353.33px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-prev" aria-label="1/5" style="align-items: start;">
+                                    <section class="mid-container-2">
+                                        <div style="display:flex; justify-content: center;">
+                                            <div style="width:80%;">
+                                                <a href="./product.html">
+                                                    <img width="100%" height="" src="./images/nhan-lien-hoa.jpg" alt="" loading="lazy"
+                                                        sizes="(max-width: 510px) 100vw, 510px">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h4><a href="./product.html">NHẪN LIÊN HOA LỤC TỰ</a></h4>
+                                            <h4 style="color:red">550.000₫</h4>
+                                        </div>            
+                                    </section>
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" aria-label="2/5" style="align-items: start;">
+                                    <section class="mid-container-2">
+                                        <div style="display:flex; justify-content: center;">
+                                            <div style="width:80%;">
+                                                <a href="./product.html">
+                                                    <img width="100%" height="" src="./images/nhan-bac-nu-trang-sao.jpg" alt=""
+                                                        loading="lazy" sizes="(max-width: 510px) 100vw, 510px">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h4><a href="./product.html">NHẪN BẠC NỮ HÌNH TRĂNG SAO</a></h4>
+                                            <h4 style="color:red">
+                                                <del>145.000₫</del> 95.000₫
+                                            </h4>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" aria-label="3/5" style="align-items: start;">
+                                    <section class="mid-container-2">
+                                        <div style="display:flex; justify-content: center;">
+                                            <div style="width:80%;">
+                                                <a href="./product.html">
+                                                    <img width="100%" height=""
+                                                        src="./images/nhan-bac-nu-vuong-mien.jpg" alt=""
+                                                        loading="lazy" sizes="(max-width: 510px) 100vw, 510px">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h4><a href="./product.html">NHẪN BẠC NỮ GHÉP HÌNH VƯƠNG MIỆN</a></h4>
+                                            <h4 style="color:red">
+                                                <del>245.000₫</del> 165.000₫
+                                            </h4>
+                                        </div>
+                                    </section>
+                                </div>                            
+                                <div class="swiper-slide" aria-label="4/5" style="align-items: start;">
+                                    <section class="mid-container-2">
+                                        <div style="display:flex; justify-content: center;">
+                                            <div style="width:80%;">
+                                                <a href="./product.html">
+                                                    <img width="100%" height="" src="./images/CHUYKC02.jpg" alt="" loading="lazy"
+                                                        sizes="(max-width: 510px) 100vw, 510px">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h4><a href="./product.html">NHẪN NAM CHÙY KIM CANG VÀNG 18K</a></h4>
+                                            <h4 style="color:red">45.660.000₫</h4>
+                                        </div>                        
+                                    </section>
+                                </div>                            
+                                <div class="swiper-slide" aria-label="5/5" style="align-items: start;">                        
+                                    <section class="mid-container-2">
+                                        <div style="display:flex; justify-content: center;">
+                                            <div style="width:80%;">
+                                                <a href="./product.html">
+                                                    <img width="100%" height=""
+                                                        src="./images/nhan-bac-nu-da-cao.jpg" alt=""
+                                                        loading="lazy" sizes="(max-width: 510px) 100vw, 510px">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h4><a href="./product.html">NHẪN BẠC NỮ ĐÍNH ĐÁ CAO VIỀN ĐÁ TRẮNG</a></h4>
+                                            <h4 style="color:red">
+                                                <del>175.000₫</del> 95.000₫
+                                            </h4>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-6af9487745610689e" aria-disabled="false" style="top:42%; right:0;"></div>
+                            <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-6af9487745610689e" aria-disabled="false" style="top:42%; left:0;"></div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>            
                         </div>
-                    </div>
-                    <div style="text-align: center;">
-                        <h4>
-                            <a href="./product.html">NHẪN BẠC NỮ VÒNG NGUYỆT QUẾ</a>
-                        </h4>
-                        <h4 style="color:red">
-                            <del>145.000₫</del> 95.000₫
-                        </h4>
-                    </div>
-                    <a href="./product.html">
-                        <div style="
-                                                font-size: small; font-weight: bold; 
-                                                padding:10px; margin:10px; border: 1px solid darkblue; border-radius:10px; 
-                                                background: white;">
-                            Xem thêm
-                        </div>
-                    </a>
+                    
+                        <a href="./product.html">
+                            <div style="
+                                font-size: small; font-weight: bold; 
+                                padding:10px; margin: 10px 10px 10px 10px ; border: 1px solid darkblue; border-radius:10px; 
+                                background: white;">
+                                Xem thêm
+                            </div>    
+                        </a>
+                    </section>                    
                 </section>
-            </section>
+            </div>
 
             <section class="bottom-container">
                 <header class="footer">
@@ -350,12 +633,12 @@
                         </li>
                         <li>
                             <a href="./home.html" style="color:red">
-                                Hotline mua hàng 1: <strong>094 27 66662</strong>
+                                Hotline mua hàng 1: <strong>098 43 20841</strong>
                             </a>
                         </li>
                         <li>
                             <a href="./home.html" style="color:red">
-                                Hotline mua hàng 2: <strong>098 67 66662</strong>
+                                Hotline mua hàng 2: <strong>098 63 63131</strong>
                             </a>
                         </li>
                         <li>
@@ -391,23 +674,23 @@
                     <ul style="list-style-type:none;">
                         <li>
                             <a href="./home.html">
-                                <strong>© CÔNG TY TNHH TRANG SỨC VIỄN CHÍ BẢO</strong>
+                                <strong>© CÔNG TY TNHH TRANG SỨC CYBER SILVER</strong>
                             </a>
                         </li>
                         <li>
                             <a href="./home.html">
                                 Showroom:
-                                <br>39 Xã Đàn - Phương Liên - Đống Đa - Hà Nội
+                                <br>12A Nhiêu Tứ - Phường 7 - Phú Nhuận - TP HCM
                             </a>
                         </li>
                         <li>
                             <a href="./home.html">
-                                Tel: 098.67.66662
+                                Tel: 098.63.63131
                             </a>
                         </li>
                         <li>
                             <a href="./home.html"> <span class="elementor-icon-list-text">Email:
-                                    vienchibao6868@gmail.com</span>
+                                    chanhvokts@gmail.com</span>
                             </a>
                         </li>
                         <li>

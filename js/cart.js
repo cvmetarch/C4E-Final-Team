@@ -19,31 +19,34 @@ let generateCartItems = () => {
         let search = shopItemsData.find((y) => y.id === id) || [];
         return `
       <div class="cart-item">
-        <div style="width:30%; margin:auto">
-          <img style="width:100%;" src=${search.img} alt="" />
+        <div class="cart-container">
+          <div class="cart-item-img">
+            <img style="width:100%;" src=${search.img} alt="" />
+          </div>
+          <div class="details-cart">
+            <div class="title-price-x">
+                <h5 style="padding:0;">
+                  <p style="padding:0;">${search.name}</p>
+                  <p style="padding:0;" class="cart-item-price">${numbWithComma(search.price)} đ</p>
+                </h5>              
+            </div>
+            <div style="display:flex; flex-direction: column; justify-content:center;">
+              <div class="buttons" style="align-items: center; justify-content: end">
+                <i onclick="decrement(${id})" class="bi bi-dash-lg"></i>
+                <div id=${id} class="quantity">${item}</div>
+                <i onclick="increment(${id})" class="bi bi-plus-lg"></i>
+              </div>
+              <div style="min-width: 30%; display:flex; align-items: center; justify-content: end; text-align:right;">
+                <h4 style="padding:0; white-space:nowrap">
+                  ${numbWithComma(item * search.price)} đ
+                </h4>
+              </div>         
+            </div>
+          </div>
         </div>
-        <div class="details-cart">
-          <div class="title-price-x">
-              <h5 class="title-price">
-                <p>${search.name}</p>
-                <p class="cart-item-price">${numbWithComma(search.price)} đ</p>
-              </h5>              
-          </div>
-
-          <div class="buttons" style="align-items: center; justify-content: end">
-            <i onclick="decrement(${id})" class="bi bi-dash-lg"></i>
-            <div id=${id} class="quantity">${item}</div>
-            <i onclick="increment(${id})" class="bi bi-plus-lg"></i>
-          </div>
-          <div style="min-width: 30%; display:flex; align-items: center; justify-content: end; text-align:right;">
-          <h4>
-            ${numbWithComma(item * search.price)} đ
-          </h4>
-          </div>         
+        <div style="display: flex; min-width:10%; align-items: center; justify-content: center;">
+          <i onclick="removeItem(${id})" class="bi bi-x-lg"></i>
         </div>
-          <div style="display: flex; min-width:10%; align-items: center; justify-content: center;">
-            <i onclick="removeItem(${id})" class="bi bi-x-lg"></i>
-          </div>
         
       </div>
       `;
