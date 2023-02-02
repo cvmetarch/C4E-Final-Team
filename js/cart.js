@@ -46,8 +46,7 @@ let generateCartItems = () => {
         </div>
         <div style="display: flex; min-width:10%; align-items: center; justify-content: center;">
           <i onclick="removeItem(${id})" class="bi bi-x-lg"></i>
-        </div>
-        
+        </div>        
       </div>
       `;
       })
@@ -132,7 +131,10 @@ let TotalAmount = () => {
       .reduce((x, y) => x + y, 0);
     // console.log(amount);
     label.innerHTML = `
-    <h2>Tổng đơn hàng : ${numbWithComma(amount)} đ</h2>
+    <div style="display:flex; justify-content:center; flex-wrap:wrap;">
+      <h2 style="white-space:nowrap;">Tổng đơn hàng : </h2>
+      <h2 style="white-space:nowrap;">${numbWithComma(amount)} đ</h2>
+    </div>
     <button class="checkout">Thanh toán</button>
     <button onclick="clearCart()" class="removeAll">Xóa giỏ hàng</button>
     `;
